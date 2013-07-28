@@ -4,21 +4,20 @@
   "description": "Yet another yet another static site generator",
   "main": "lib",
   "bin": "bin/yayassg",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "repository": {
     "type": "git",
     "url": "https://bebraw@github.com/bebraw/yayassg.git"
   },
-
   "keywords": [
     "static",
     "generator"
   ],
-
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~2.0.0"
+  }
 }

@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+var program = require('commander');
+var yayassg = require('../lib');
+
+
+main();
+
+function main() {
+    program.version(require('../package.json').version).
+        option('-c --config <config>', 'configuration file').
+        option('-i --input <input>', 'input directory').
+        option('-o --output <output>', 'output directory').
+        parse(process.argv);
+
+    if(!program.input) return console.error('Missing input');
+    if(!program.output) return console.error('Missing output');
+
+    yayassg(program.input, program.output, program.config);
+}
