@@ -1,0 +1,24 @@
+{
+  "name": "yayassg",
+  "version": "0.1.0",
+  "description": "Yet another yet another static site generator",
+  "main": "lib",
+  "bin": "bin/yayassg",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://bebraw@github.com/bebraw/yayassg.git"
+  },
+
+  "keywords": [
+    "static",
+    "generator"
+  ],
+
+  "author": "Juho Vepsalainen <bebraw@gmail.com>",
+  "license": "MIT"
+}
