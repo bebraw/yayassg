@@ -18,6 +18,7 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "commander": "~2.0.0"
+    "commander": "~2.0.0",
+    "filewalker": "~0.1.2"
   }
 }
