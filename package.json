@@ -20,6 +20,8 @@
   "dependencies": {
     "commander": "~2.0.0",
     "glob": "~3.2.6",
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "yaml": "~0.2.3",
+    "handlebars": "~1.0.12"
   }
 }
