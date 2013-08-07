@@ -1,6 +1,6 @@
 {
   "name": "yayassg",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Yet another yet another static site generator",
   "main": "lib",
   "bin": "bin/yayassg",
